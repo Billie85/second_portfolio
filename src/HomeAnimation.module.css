@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.MainWindow{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #a0a0a0;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 10em;
+}
+.HeaderMain{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 20px; /* 必要なマージンを設定 */
+    font-size: 1.1rem;
+    z-index: 1; /* ヘッダーを前面に表示 */
+}
+.HeaderFont{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mbaloloness', sans-serif;
+                                                
+}
+.Name1{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Name2{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.NameFont {
+    font-family: 'Mbaloloness', sans-serif;
+    font-size: 8vw;
+    color: #1a1a1a;
+}
+
+.counter {
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 10000;
+    color: #bcbcc4;
+    padding: 0.2em 0.4em;
+    font-size: 18vw;
+    font-family: 'Magneton', sans-serif;
+                                                
+}
+.overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+}
+.bar {
+    width: 10vw;
+    height: 105vw;
+    background-color: #1a1a1a;
+}
