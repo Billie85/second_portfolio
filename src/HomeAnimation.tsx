@@ -1,4 +1,4 @@
-import styles from './HomeAnimation.module.css';
+import styles from './Designs/HomeAnimation.module.css';
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import {HomePage} from './HomePage';
