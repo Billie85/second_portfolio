@@ -1,9 +1,9 @@
-import styles from './Designs/HomeAnimation.module.css';
+import styles from './Designs/Home.module.css';
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
-import {HomePage} from './HomePage';
+import {HomeHTML} from './HomeHTML';
 
-export function HomeAnimation() {
+export function Home() {
   useEffect(() => {
     function startLoader() {
       const counterElement = document.querySelector(`.${styles.counter}`);
@@ -38,7 +38,7 @@ export function HomeAnimation() {
 
   return (
     <>
-      <HomePage />
+      <HomeHTML />
     </>
   );
 }
